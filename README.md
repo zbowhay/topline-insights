@@ -1,4 +1,8 @@
-# Topline integration interview project
+# Overview
+
+This is a coding challenge I completed during an interview process for a fintech startup.
+
+## Topline Insights Interview project
 
 Thanks for taking the time to interview! We really appreciate it, and we hope to see the best of your work.
 
