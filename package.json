@@ -1,0 +1,26 @@
+{
+  "name": "insights-interview",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "@digitak/esrun": "^3.2.15",
+    "@types/node": "^18.11.15",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "part-0": "esrun src/min-max-mean-invoice.ts",
+    "part-1": "esrun src/top-ten-customers.ts",
+    "part-2": "esrun src/customers-by-cohort.ts",
+    "part-3": "esrun src/revenue-by-cohort.ts",
+    "test": "nyc mocha --require ts-node/register test/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  }
+}
